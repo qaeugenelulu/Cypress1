@@ -5,12 +5,17 @@
 
    
 
-   it ('home page open ' , ()=>{ 
-   cy.visit('https://qa23.preprod.lululemon.com')  
-   cy.get('.iblpc').should("be.visible")
-   } )
+describe('my first Home page suite',()=> {
+
+   it('open Home page and verify some elements' ,()=>{
+
+    cy.visit('/')
+
+   })
 
 
+
+  })
 
 
 
