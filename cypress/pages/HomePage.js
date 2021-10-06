@@ -21,5 +21,12 @@ export default class HomePage {
   static womenLink(){
     return  cy.get(':nth-child(1) > [data-testid=nav-desktop-l1]')
   }
+   
+  static navigation(){
+    cy.visit('/')
+  }
 
+  static brandStatement(){
+    return cy.get(".global-brand-statement_headlineText__3LLif");
+  }
 }

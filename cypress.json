@@ -1,6 +1,6 @@
 {
-    "baseUrl" : "https://qa23.preprod.lululemon.com",
-    "ignoreTestFiles" :"**/examples/",
+    "baseUrl" : "http://qa23.preprod.lululemon.com",
+    "ignoreTestFiles" :"**/2-advanced-examples/*",
     "viewportHeight" : 1080,
     "viewportWidth" : 1920
 }
