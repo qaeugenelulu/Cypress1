@@ -29,4 +29,16 @@ export default class HomePage {
   static brandStatement(){
     return cy.get(".global-brand-statement_headlineText__3LLif");
   }
+
+  static megaNav(){
+    return cy.get("[data-testid='nav-desktop']");
+  }
+
+  static footerNav(){
+    return cy.get(".footer_primaryMenu__1kS1C");
+  }
+
+  static megaNavGrid(){
+    return cy.get(".detailed_detailNavIner__1r3z6");
+  }
 }
